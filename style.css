@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-box{
+    background-color: #34b1b9;
+    height: 100%;
+}
+.row{
+    height: 300px;
+    width: 100vh;
+    padding-top: 2%;
+    padding-left: 5%;
+    border-radius:25px ;
+    border: 3px solid rgb(92, 179, 206);
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 10% 10% 10%;
+    grid-gap: 40px;
+}
+.card{
+    height: 850%;
+    width:100%;
+    background-color: white;
+    border-radius:25px;
+}
+.card-num {
+    width:50px;
+    height: 50px;
+    background-color:aqua;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    margin-left: -20px;
+    border: 10px solid #34b1b9;
+    float: left;
+}
+.card-num h1{
+    text-align: center;
+    color: #34b1b9;
+}
+.card-head{
+    width:100%;
+    height: 50px;
+    margin-left: 10px;
+    background: radial-gradient(circle at left , transparent 50px, #01b7c4 50px);;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 70px 50px 0px 10px ;
+    border-block-start:50px;
+}
+.sep{
+    margin:2%
+}
+.card2-head{
+    width:90%;
+    height: 50px;
+    margin-left: 10px;
+    background: radial-gradient(circle at left , transparent 50px,  #004d4d 50px);;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 70px 50px 0px 10px ;
+    border-block-start:50px;
+}
+.card-head h4{
+    color: white;
+    margin-left: 60px;
+    padding-top: 5%;
+
+}
+.card2-head h4{
+    color: white;
+    margin-left: 60px;
+    padding-top: 5%;
+
+}
+.card p {
+    font-size: 19px;
+    padding:10px
+}
+.fotter{
+    height: 500px;
+    background-color: white;
+}
+.fotter-logo{
+    height: 30px;
+    margin-left: 75px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#map{
+    height: 200px;
+    width: 200px;
+    margin-left: 38px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+}
+.fotter-flex{
+    height: 200px;
+    width: 15%;
+    margin: 5px;
+    color: rgb(83, 72, 72);
+}
+.fotter-img{
+    height: 200px;
+    width: 20%;
+    margin: 5px;
+    color: rgb(83, 72, 72);
+}
+button{
+    width:150px;
+    height: 50px;
+    background-color: #34B1B9;
+    border-radius: 5px;
+    border: 2px solid #34B1B9;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Responsive For Tab and mobile */
+
+@media (max-width:1000px){
+    .row{
+        height: 200vh;
+        width: 90%;
+        padding-left: 5%;
+        border-radius:25px ;
+        display: grid;
+        grid-template-columns: 100%; 
+    }
+    .card{
+        height: 100%;
+        background-color: white;
+        border-radius:25px;
+        width: 90%;
+    }
+    .card-num {
+        width:50px;
+        height: 50px;
+        background-color:aqua;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        margin-left: -20px;
+        border: 10px solid #34b1b9;
+        float: left;
+    }
+    .card-num h1{
+        text-align: center;
+        color: #34b1b9;
+    }
+    .card-head{
+        width:90%;
+        height: 50px;
+        margin-left: 10px;
+        background: radial-gradient(circle at left , transparent 50px, #01b7c4 50px);;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-radius: 70px 50px 0px 10px ;
+        border-block-start: 50px;
+    }
+     .sep {
+        margin-top: 12%;
+    }
+    .card2-head{
+        width:90%;
+        height: 50px;
+        margin-left: 10px;
+        background: radial-gradient(circle at left , transparent 50px,  #004d4d 50px);;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-radius: 70px 50px 0px 10px ;
+        border-block-start:50px;
+    }
+    .card-head h4{
+        color :white;
+        margin-left: 60px;
+        padding-top : 10px
+    }
+    .card p {
+        font-weight: bold;
+
+    }
+    .card2-head h4{
+        color: white;
+        margin-left: 60px;
+        padding-top: 10px;
+    
+    }
+    img#map{
+        display: none;
+    }
+}
